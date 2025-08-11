@@ -11,4 +11,23 @@ public class Event {
     long eventId;
     String eventName;
 
+    public Event(String eventName) {
+        this.eventName = eventName;
+    }
+
+    public long getEventId() {
+        return eventId;
+    }
+
+    public void setEventId(long eventId) {
+        this.eventId = eventId;
+    }
+
+    public String getEventName() {
+        return eventName;
+    }
+
+    public void setEventName(String eventName) {
+        this.eventName = eventName;
+    }
 }
